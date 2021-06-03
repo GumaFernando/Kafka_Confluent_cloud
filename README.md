@@ -16,29 +16,37 @@ Stream para capturar esses dados e fazer uma agregação em uma janela de tempo 
 # Desenvolvimento
 
 ### Criação de uma aplicação em Python simulando um Producer
+-- Criado uma aplicação em Python enviando dados em tempo real, simulando uma Producer,
+na qual envia informações de : "ID","NOME","DATA" para o tópico - TÓPIC-GUMA
 
 ![alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/7.png)
 
 ### Demonstração da saída dos dados
+-- Demonstrando como os dados estão sendo enviados
 
 ![alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/8.png)
 
 ### Criação de um stream no tópico - "TOPIC_GUMA"
+-- Utilizando o KSQL foi criado um Stream para capturar os dados do tópico - TÓPIC-GUMA
 
 ![alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/1.png)
 
 ### Realizando uma agregação dos dados em KSQL utilizando uma janela de tempo 
+-- Realizando uma agregação utilizando o KSQL em uma janela de tempo "WINDOW TUMBLING" de 20 segundos
 
 ![alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/3.png)
 
 ### Demonstração dos resultados dos Stream 
+-- Demonstração dos resultados da agregação, buscando os TOP 2 nomes a cada 20 segundos
 
 ![alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/4.png)
 
 ### Consultando Schema do stream
+-- Consultando o schema do stream
 
 ![alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/5.png)
 
 ### Consultando informações do Tópico
+-- Consultando as informações do tópico, verificando o tráfego do Tópico 
 
 ![alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/6.png)
