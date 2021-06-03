@@ -17,28 +17,28 @@ Stream para capturar esses dados e fazer uma agregação em uma janela de tempo 
 
 ### Criação de uma aplicação em Python simulando um Producer
 
-[!alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/7.png)
+![alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/7.png)
 
 ### Demonstração da saída dos dados
 
-[!alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/8.png)
+![alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/8.png)
 
 ### Criação de um stream no tópico - "TOPIC_GUMA"
 
-[!alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/1.png)
+![alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/1.png)
 
 ### Realizando uma agregação dos dados em KSQL utilizando uma janela de tempo 
 
-[!alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/3.png)
+![alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/3.png)
 
 ### Demonstração dos resultados dos Stream 
 
-[!alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/4.png)
+![alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/4.png)
 
 ### Consultando Schema do stream
 
-[!alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/5.png)
+![alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/5.png)
 
 ### Consultando informações do Tópico
 
-[!alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/6.png)
+![alt text](https://github.com/GumaFernando/kafka_confluent_cloud/blob/main/6.png)
